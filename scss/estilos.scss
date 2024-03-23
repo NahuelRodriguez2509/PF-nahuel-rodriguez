@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
 
 @mixin ancla{
     text-decoration:none ;
@@ -9,53 +12,66 @@
 
 }
 
-$color1:rgb(80, 129, 186);
-$color2:rgba(224, 197, 47, 0.707);
+
+$color1:#474F7A;
+$color2:#D68438;
+$color3:#76ABAE;
+$color4:#F12D2D;
+$font-family1:"Madimi One", sans-serif;
+$font-family2: "Roboto Slab", serif;
 
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: "Madimi One", sans-serif;
+    
+    
     
 }
 .logo{
     width: 150px;
 }
 footer{
+    font-family: $font-family1;
+    margin-top: 20px;
     height: 100%;
     width: 100%;
     text-align: center;
     background-color:$color1;
     color: white;
     font-size: 20px;
-    border-top:2px solid black;
+    border-top:5px solid black;
 }
 .redes{
+    
     margin-top: 30px;
 }
 .redes a{
-    color:$color2;    
+    font-family: $font-family1;
+    color:white;    
     font-size: 30px;
-    letter-spacing: 5px;
+    letter-spacing: 5px;    
     
 }
 .redes a:hover{
-    background-color:blue;
+    color: black;
+    background-color:$color2;
+    
     
 }
 .navbar{
+    font-family: $font-family2;
     height: 100%;
     background-color: $color1;
     width: 100%;
 }
 .nav-link{
-    color: white !important;
+    color: white   !important;
     text-transform: uppercase;
 }
 .nav-link:hover{
     color: black !important;
-    background-color: $color2;
+    background-color: $color4;
     ;
 }
 
@@ -65,6 +81,7 @@ footer{
     justify-content: flex-end;  
 }
 h1{
+    font-family: $font-family1;
     font-size: 25px;
     text-align: center; 
     color:$color2;
@@ -77,7 +94,7 @@ h1{
     
 }
 .item{
-    border: 2px solid $color1;
+    border: 5px solid black;
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -92,6 +109,7 @@ h1{
     
 }   
 .item1{
+    
     background-image:url(../imagenes/habitacion\ 2.jpeg);
 
 }
@@ -179,9 +197,10 @@ body{
     border: 5px solid white;
 }
 h2{
+    font-family: $font-family2;
     font-size: 35px;
     padding: 20px;
-    color: $color1;
+    color: $color4;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 0 0 5px white;
@@ -195,12 +214,12 @@ h2{
 }
 .call a:hover{
     color: black;
-    background-color: $color2;
+    background-color: $color4;
 }
 .subir{
     height: 40px;
     width: 40px;
-    background-color:$color2 ;
+    background-color:$color4;
     color: white;
     position: fixed;
     bottom: 40px;
@@ -230,7 +249,7 @@ html{
 header{
     height: 100%;
     width: 100%;
-    border-bottom: 2px solid black;
+    border-bottom: 5px solid black;
     margin-bottom: 20px;
 }
 
