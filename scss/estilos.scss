@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
+
 @mixin ancla{
     text-decoration:none ;
     background-color: black;
+    
 
 
 }
 
-$color1:rgba(31, 4, 95, 0.893);
-$color2:rgba(230, 11, 11, 0.707);
+$color1:rgb(80, 129, 186);
+$color2:rgba(224, 197, 47, 0.707);
 
 *{
     margin:0;
@@ -24,9 +26,10 @@ footer{
     height: 100%;
     width: 100%;
     text-align: center;
-    background-color: $color1;
+    background-color:$color1;
     color: white;
     font-size: 20px;
+    border-top:2px solid black;
 }
 .redes{
     margin-top: 30px;
@@ -34,12 +37,15 @@ footer{
 .redes a{
     color:$color2;    
     font-size: 30px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
+    
 }
 .redes a:hover{
-@include ancla;
+    background-color:blue;
+    
 }
 .navbar{
+    height: 100%;
     background-color: $color1;
     width: 100%;
 }
@@ -81,7 +87,7 @@ h1{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8,200px);
     padding: 20px;
-    background-color: black;
+    background-color: $color1;
     grid-gap: 20px;
     
 }   
@@ -165,7 +171,8 @@ body{
     background-color: $color1;
 }
 .call{
-    height: 100%;
+    width: 100%;
+    height:100%;
     @include ancla;
     color: white;
     padding: 20px;
@@ -220,5 +227,10 @@ html{
     text-transform: uppercase;
     text-align: center;
 }
-
+header{
+    height: 100%;
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
 
