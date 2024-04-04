@@ -12,12 +12,11 @@
 }
 
 footer {
-  font-family: "Madimi One", sans-serif;
   margin-top: 20px;
   height: 100%;
   width: 100%;
   text-align: center;
-  background-color: #474F7A;
+  background-color: rgba(222, 232, 167, 0.5647058824);
   color: white;
   font-size: 20px;
   border-top: 5px solid black;
@@ -42,7 +41,7 @@ footer {
 .navbar {
   font-family: "Roboto Slab", serif;
   height: 100%;
-  background-color: #474F7A;
+  background-color: rgba(222, 232, 167, 0.5647058824);
   width: 100%;
 }
 
@@ -53,7 +52,7 @@ footer {
 
 .nav-link:hover {
   color: black !important;
-  background-color: #F12D2D;
+  background-color: #ed8888;
 }
 
 .collapse {
@@ -83,7 +82,7 @@ h1 {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(8, 200px);
   padding: 20px;
-  background-color: #474F7A;
+  background-color: rgba(222, 232, 167, 0.5647058824);
   grid-gap: 20px;
 }
 
@@ -170,7 +169,7 @@ h1 {
   }
 }
 body {
-  background-color: #474F7A;
+  background-color: rgba(222, 232, 167, 0.5647058824);
 }
 
 .call {
@@ -187,7 +186,7 @@ h2 {
   font-family: "Roboto Slab", serif;
   font-size: 35px;
   padding: 20px;
-  color: #F12D2D;
+  color: #ed8888;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 5px white;
@@ -195,20 +194,20 @@ h2 {
 
 .call a {
   color: white;
-  background-color: #474F7A;
+  background-color: rgba(222, 232, 167, 0.5647058824);
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .call a:hover {
   color: black;
-  background-color: #F12D2D;
+  background-color: #ed8888;
 }
 
 .subir {
   height: 40px;
   width: 40px;
-  background-color: #F12D2D;
+  background-color: #ed8888;
   color: white;
   position: fixed;
   bottom: 40px;

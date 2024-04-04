@@ -13,10 +13,10 @@
 }
 
 
-$color1:#474F7A;
+$color1:#dee8a790;
 $color2:#D68438;
 $color3:#76ABAE;
-$color4:#F12D2D;
+$color4:#ed8888;
 $font-family1:"Madimi One", sans-serif;
 $font-family2: "Roboto Slab", serif;
 
@@ -24,15 +24,12 @@ $font-family2: "Roboto Slab", serif;
     margin:0;
     padding:0;
     box-sizing: border-box;
-    
-    
-    
-}
+    }
 .logo{
     width: 150px;
 }
 footer{
-    font-family: $font-family1;
+    
     margin-top: 20px;
     height: 100%;
     width: 100%;
@@ -189,6 +186,7 @@ body{
     background-color: $color1;
 }
 .call{
+    
     width: 100%;
     height:100%;
     @include ancla;
